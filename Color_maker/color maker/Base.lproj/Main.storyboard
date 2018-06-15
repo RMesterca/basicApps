@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="color_maker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-uA-NIb">
+                                <rect key="frame" x="138" y="39" width="98" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoP-95-rtL">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SpR-v5-Qqu" userLabel="Red Switch">
+                                        <rect key="frame" x="49" y="0.0" width="51" height="31"/>
+                                        <color key="onTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="eMp-zg-pV6"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VIa-hN-jli">
+                                <rect key="frame" x="138" y="120" width="98" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwP-Y4-iMe">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.12055854589999999" green="1" blue="0.073023487030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nct-rU-KPG" userLabel="Green Switch">
+                                        <rect key="frame" x="49" y="0.0" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.12055854589999999" green="1" blue="0.073023487030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="p7o-dG-dsX"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rIB-FW-3tl">
+                                <rect key="frame" x="138" y="201" width="98" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftq-kK-1dd">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yA-hg-gdP" userLabel="Blue Switch">
+                                        <rect key="frame" x="49" y="0.0" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="zKV-MO-gn7"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nro-SS-Gtf" userLabel="colorView">
+                                <rect key="frame" x="127.5" y="332" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="qQE-S1-cqK"/>
+                                    <constraint firstAttribute="height" constant="120" id="uY5-gL-vFG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="0fm-uA-NIb" secondAttribute="bottom" constant="-50" id="BKc-N9-7vV"/>
+                            <constraint firstItem="VIa-hN-jli" firstAttribute="top" secondItem="0fm-uA-NIb" secondAttribute="bottom" constant="50" id="Nhu-Bm-uAm"/>
+                            <constraint firstItem="rIB-FW-3tl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qqg-Bd-Vua"/>
+                            <constraint firstItem="nro-SS-Gtf" firstAttribute="top" secondItem="rIB-FW-3tl" secondAttribute="bottom" constant="100" id="RbU-vo-er6"/>
+                            <constraint firstItem="VIa-hN-jli" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Y9P-Av-eaI"/>
+                            <constraint firstItem="nro-SS-Gtf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gJE-sD-n8t"/>
+                            <constraint firstItem="0fm-uA-NIb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="o5q-tj-a6a"/>
+                            <constraint firstItem="rIB-FW-3tl" firstAttribute="top" secondItem="VIa-hN-jli" secondAttribute="bottom" constant="50" id="uYF-R4-qGd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueControl" destination="9yA-hg-gdP" id="xgp-1q-f6h"/>
+                        <outlet property="colorView" destination="nro-SS-Gtf" id="fQR-m3-HXx"/>
+                        <outlet property="greenControl" destination="nct-rU-KPG" id="hah-qL-yhL"/>
+                        <outlet property="redControl" destination="SpR-v5-Qqu" id="3gh-3e-xXT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
