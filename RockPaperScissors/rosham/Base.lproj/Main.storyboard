@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rosham" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EDu-ky-WS8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="c41-tc-Fbn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="215.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LId-eU-JCB" userLabel="Paper">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="215.5"/>
+                                                <state key="normal" image="paper"/>
+                                                <connections>
+                                                    <action selector="chooseHandWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wua-UP-EmG"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7lj-iJ-5qK">
+                                        <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDo-26-Xtk" userLabel="Rock ">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="216"/>
+                                                <state key="normal" image="rock"/>
+                                                <connections>
+                                                    <action selector="chooseHandWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fli-dJ-qQD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2O-tt-nUN" userLabel="Scissors">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="216"/>
+                                                <state key="normal" image="scissors"/>
+                                                <connections>
+                                                    <action selector="chooseHandWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rg1-4K-yVu"/>
+                                                    <segue destination="Gaa-aM-6Lk" kind="presentation" identifier="changeHandWithScissors" id="NTv-bl-YVP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kZi-lJ-Isi">
+                                        <rect key="frame" x="0.0" y="431.5" width="375" height="215.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's play!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVZ-Fs-HNI">
+                                                <rect key="frame" x="0.0" y="97.5" width="375" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EDu-ky-WS8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EfZ-PA-8qC"/>
+                            <constraint firstItem="EDu-ky-WS8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pUb-e9-9sd"/>
+                            <constraint firstItem="EDu-ky-WS8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tzq-2J-FTJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EDu-ky-WS8" secondAttribute="bottom" id="zKF-Qr-HaR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="paperButton" destination="LId-eU-JCB" id="6gf-eX-cOH"/>
+                        <outlet property="rockButton" destination="xDo-26-Xtk" id="MZs-N8-MEc"/>
+                        <outlet property="scissorsButton" destination="C2O-tt-nUN" id="7Yy-0X-CWd"/>
+                        <segue destination="Gaa-aM-6Lk" kind="showDetail" identifier="chooseHand" id="0ms-7O-ro6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Computer View Controller-->
+        <scene sceneID="1su-ZV-rem">
+            <objects>
+                <viewController storyboardIdentifier="ComputerViewController" id="Gaa-aM-6Lk" customClass="ComputerViewController" customModule="rosham" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="th5-0B-NMD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t1f-ja-95E">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z2l-Y1-hRX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="215.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yx-AI-yZ1" userLabel="matchResult">
+                                        <rect key="frame" x="162.5" y="215.5" width="50" height="216"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t51-Pv-v3Q">
+                                        <rect key="frame" x="152" y="431.5" width="71" height="215.5"/>
+                                        <state key="normal" title="Play Again"/>
+                                        <connections>
+                                            <action selector="dismiss" destination="Gaa-aM-6Lk" eventType="touchUpInside" id="Bhg-xu-S7M"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k2S-af-Cuh" firstAttribute="trailing" secondItem="t1f-ja-95E" secondAttribute="trailing" id="730-oh-agC"/>
+                            <constraint firstItem="k2S-af-Cuh" firstAttribute="bottom" secondItem="t1f-ja-95E" secondAttribute="bottom" id="WXq-0S-3la"/>
+                            <constraint firstItem="t1f-ja-95E" firstAttribute="top" secondItem="k2S-af-Cuh" secondAttribute="top" id="ezj-vC-VZ5"/>
+                            <constraint firstItem="t1f-ja-95E" firstAttribute="leading" secondItem="k2S-af-Cuh" secondAttribute="leading" id="sTe-He-SdZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k2S-af-Cuh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hGm-8P-KGd"/>
+                    <connections>
+                        <outlet property="computerHand" destination="Z2l-Y1-hRX" id="gdP-tS-YIV"/>
+                        <outlet property="matchResult" destination="4yx-AI-yZ1" id="WdQ-gu-onE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fb8-IZ-lyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2191" y="34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paper" width="75" height="65"/>
+        <image name="rock" width="75" height="65"/>
+        <image name="scissors" width="75" height="65"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="NTv-bl-YVP"/>
+    </inferredMetricsTieBreakers>
+</document>
