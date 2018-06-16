@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Plain Ol' To-Do
 //
-//  Created by Todd Perkins on 9/15/17.
-//  Copyright © 2017 Todd Perkins. All rights reserved.
+//  Created by Mac on 15/06/2018.
+//  Copyright © 2018 Fig. All rights reserved.
 //
 
 import UIKit
