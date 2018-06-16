@@ -2,8 +2,8 @@
 //  DetailViewController.swift
 //  Plain Ol' Notes
 //
-//  Created by Todd Perkins on 1/12/18.
-//  Copyright © 2018 Todd Perkins. All rights reserved.
+//  Created by Mac on 16/04/2018.
+//  Copyright © 2018 Udacity. All rights reserved.
 //
 
 import UIKit
