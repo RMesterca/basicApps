@@ -8,15 +8,6 @@
 
 import UIKit
 
-// MARK: - ViewController: UIViewController, UITextFieldDelegate
-protocol LabelUpdate: class {
-    func updateLabel()
-}
-
-protocol EditSwitchDelegate {
-    
-}
-
 class ViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: Properties
