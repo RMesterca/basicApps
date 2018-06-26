@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "c82b1c6492d21ab71de8e4c6901ed06a"
-build_time: [1530054623, 807379000]
+options: "b7905a96d0d9f30dc11e321bfcb5e6fa"
+build_time: [1530055795, 595368000]
 inputs:
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/NoteViewController.swift": [1530054105, 0]
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/NoteTableViewController.swift": [1530054366, 0]
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/NotesManager.swift": [1530054623, 0]
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/NotebookTableViewController.swift": [1530054623, 0]
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/AppDelegate.swift": [1530048346, 0]
-  "/Users/mac/Desktop/NoteBookApp_Realm/NoteBookApp_Realm/RealmDataModel.swift": [1530048979, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/NoteViewController.swift": !dirty [1530054105, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/NoteTableViewController.swift": !dirty [1530054366, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/NotesManager.swift": !dirty [1530054623, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/NotebookTableViewController.swift": !dirty [1530054623, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/AppDelegate.swift": !dirty [1530048346, 0]
+  "/Users/mac/basicApps/NoteBookApp_Realm/NoteBookApp_Realm/RealmDataModel.swift": !dirty [1530048979, 0]
