@@ -1,0 +1,958 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NoteTableViewController"
+provides-nominal:
+- "17NoteBookApp_Realm0A19TableViewControllerC"
+provides-member:
+- ["17NoteBookApp_Realm0A19TableViewControllerC", ""]
+provides-dynamic-lookup:
+- "numberOfSections"
+- "prepare"
+- "tableView"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "IndexPath"
+- "Int"
+- "Note"
+- "NoteTableViewController"
+- !private "NoteViewController"
+- "Notebook"
+- !private "NotesManager"
+- "UIStoryboardSegue"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewCellEditingStyle"
+- "UITableViewController"
+depends-member:
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "content"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "title"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "remove"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "deleteRows"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "indexPathForSelectedRow"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- ["s7CVarArgP", "Note"]
+- !private ["s7CVarArgP", "NotesManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "configureView"]
+- !private ["s7CVarArgP", "content"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deleteNote"]
+- !private ["s7CVarArgP", "deleteRows"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "getNotes"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "indexPathForSelectedRow"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "largeTitleDisplayMode"]
+- !private ["s7CVarArgP", "loadData"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "noteObject"]
+- !private ["s7CVarArgP", "notebookObject"]
+- !private ["s7CVarArgP", "notesArray"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "remove"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- ["s28CustomDebugStringConvertibleP", "Note"]
+- !private ["s28CustomDebugStringConvertibleP", "NotesManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "configureView"]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteNote"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteRows"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "getNotes"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPathForSelectedRow"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s28CustomDebugStringConvertibleP", "loadData"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "noteObject"]
+- !private ["s28CustomDebugStringConvertibleP", "notebookObject"]
+- !private ["s28CustomDebugStringConvertibleP", "notesArray"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "Note"]
+- !private ["s23CustomStringConvertibleP", "NotesManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "configureView"]
+- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "deleteNote"]
+- !private ["s23CustomStringConvertibleP", "deleteRows"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "getNotes"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "indexPathForSelectedRow"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s23CustomStringConvertibleP", "loadData"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "noteObject"]
+- !private ["s23CustomStringConvertibleP", "notebookObject"]
+- !private ["s23CustomStringConvertibleP", "notesArray"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "remove"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "remove"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "Note"]
+- !private ["s9EquatableP", "NotesManager"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "configureView"]
+- !private ["s9EquatableP", "content"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "deleteNote"]
+- !private ["s9EquatableP", "deleteRows"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "fade"]
+- !private ["s9EquatableP", "getNotes"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "indexPathForSelectedRow"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "largeTitleDisplayMode"]
+- !private ["s9EquatableP", "loadData"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "never"]
+- !private ["s9EquatableP", "noteObject"]
+- !private ["s9EquatableP", "notebookObject"]
+- !private ["s9EquatableP", "notesArray"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textLabel"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Note"]
+- !private ["s8HashableP", "NotesManager"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "configureView"]
+- !private ["s8HashableP", "content"]
+- !private ["s8HashableP", "delete"]
+- !private ["s8HashableP", "deleteNote"]
+- !private ["s8HashableP", "deleteRows"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "fade"]
+- !private ["s8HashableP", "getNotes"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "indexPathForSelectedRow"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "largeTitleDisplayMode"]
+- !private ["s8HashableP", "loadData"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "never"]
+- !private ["s8HashableP", "noteObject"]
+- !private ["s8HashableP", "notebookObject"]
+- !private ["s8HashableP", "notesArray"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textLabel"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["So16UINavigationItemC21LargeTitleDisplayModeO", "never"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "remove"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSCodingP", "Note"]
+- !private ["So8NSCodingP", "NotesManager"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "configureView"]
+- !private ["So8NSCodingP", "deleteRows"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "indexPathForSelectedRow"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "largeTitleDisplayMode"]
+- !private ["So8NSCodingP", "loadData"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "noteObject"]
+- !private ["So8NSCodingP", "notebookObject"]
+- !private ["So8NSCodingP", "notesArray"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", "Note"]
+- !private ["So26NSExtensionRequestHandlingP", "NotesManager"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "configureView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadData"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "noteObject"]
+- !private ["So26NSExtensionRequestHandlingP", "notebookObject"]
+- !private ["So26NSExtensionRequestHandlingP", "notesArray"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Note"]
+- !private ["So8NSObjectC", "NoteViewController"]
+- ["So8NSObjectC", "Notebook"]
+- !private ["So8NSObjectC", "NotesManager"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", "UITableViewCellEditingStyle"]
+- ["So8NSObjectC", "configureView"]
+- !private ["So8NSObjectC", "content"]
+- !private ["So8NSObjectC", "deleteNote"]
+- !private ["So8NSObjectC", "deleteRows"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "getNotes"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "indexPathForSelectedRow"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "largeTitleDisplayMode"]
+- ["So8NSObjectC", "loadData"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "noteObject"]
+- ["So8NSObjectC", "notebookObject"]
+- ["So8NSObjectC", "notesArray"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textLabel"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So16NSObjectProtocolP", "Note"]
+- !private ["So16NSObjectProtocolP", "NotesManager"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "configureView"]
+- !private ["So16NSObjectProtocolP", "content"]
+- !private ["So16NSObjectProtocolP", "deleteNote"]
+- !private ["So16NSObjectProtocolP", "deleteRows"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "getNotes"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "indexPathForSelectedRow"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "largeTitleDisplayMode"]
+- !private ["So16NSObjectProtocolP", "loadData"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "noteObject"]
+- !private ["So16NSObjectProtocolP", "notebookObject"]
+- !private ["So16NSObjectProtocolP", "notesArray"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textLabel"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- !private ["17NoteBookApp_Realm0A0C", "content"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "Bool"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "IndexPath"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "Int"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "Note"]
+- !private ["17NoteBookApp_Realm0A19TableViewControllerC", "NoteViewController"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "Notebook"]
+- !private ["17NoteBookApp_Realm0A19TableViewControllerC", "NotesManager"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "UIStoryboardSegue"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "UITableView"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "UITableViewCell"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "UITableViewCellEditingStyle"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "configureView"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "deinit"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "init"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "loadData"]
+- !private ["17NoteBookApp_Realm0A19TableViewControllerC", "navigationItem"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "notebookObject"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "notesArray"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "numberOfSections"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "prepare"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "tableView"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "viewDidLoad"]
+- ["17NoteBookApp_Realm0A19TableViewControllerC", "viewWillAppear"]
+- !private ["17NoteBookApp_Realm0A14ViewControllerC", "navigationController"]
+- !private ["17NoteBookApp_Realm0A14ViewControllerC", "noteObject"]
+- !private ["17NoteBookApp_Realm0A14ViewControllerC", "notebookObject"]
+- !private ["17NoteBookApp_Realm8NotebookC", "title"]
+- !private ["17NoteBookApp_Realm12NotesManagerC", "deleteNote"]
+- !private ["17NoteBookApp_Realm12NotesManagerC", "getNotes"]
+- !private ["17NoteBookApp_Realm12NotesManagerC", "shared"]
+- !private ["10RealmSwift6ObjectC", "content"]
+- !private ["10RealmSwift6ObjectC", "title"]
+- !private ["So13RLMObjectBaseC", "content"]
+- !private ["So13RLMObjectBaseC", "title"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "remove"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "remove"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "delete"]
+- !private ["s16RawRepresentableP", "fade"]
+- !private ["s16RawRepresentableP", "never"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "content"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "title"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "remove"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "content"]
+- !private ["10RealmSwift14ThreadConfinedP", "title"]
+- !private ["So29UIAccessibilityIdentificationP", "deleteRows"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "indexPathForSelectedRow"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "deleteRows"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "indexPathForSelectedRow"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- ["So21UIAppearanceContainerP", "Note"]
+- !private ["So21UIAppearanceContainerP", "NotesManager"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "configureView"]
+- !private ["So21UIAppearanceContainerP", "deleteRows"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "indexPathForSelectedRow"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadData"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "noteObject"]
+- !private ["So21UIAppearanceContainerP", "notebookObject"]
+- !private ["So21UIAppearanceContainerP", "notesArray"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", "Note"]
+- !private ["So18UIContentContainerP", "NotesManager"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "configureView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadData"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "noteObject"]
+- !private ["So18UIContentContainerP", "notebookObject"]
+- !private ["So18UIContentContainerP", "notesArray"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "deleteRows"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "indexPathForSelectedRow"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So23UIDataSourceTranslatingP", "deleteRows"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "indexPathForSelectedRow"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "deleteRows"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "indexPathForSelectedRow"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- ["So18UIFocusEnvironmentP", "Note"]
+- !private ["So18UIFocusEnvironmentP", "NotesManager"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "configureView"]
+- !private ["So18UIFocusEnvironmentP", "deleteRows"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "indexPathForSelectedRow"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadData"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "noteObject"]
+- !private ["So18UIFocusEnvironmentP", "notebookObject"]
+- !private ["So18UIFocusEnvironmentP", "notesArray"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So11UIFocusItemP", "deleteRows"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "indexPathForSelectedRow"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UILabelC", "text"]
+- !private ["So22UINavigationControllerC", "navigationItem"]
+- !private ["So16UINavigationItemC", "largeTitleDisplayMode"]
+- !private ["So16UINavigationItemC", "title"]
+- ["So30UIPasteConfigurationSupportingP", "Note"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotesManager"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "configureView"]
+- !private ["So30UIPasteConfigurationSupportingP", "deleteRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "indexPathForSelectedRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "noteObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "notebookObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "notesArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "Note"]
+- !private ["So11UIResponderC", "NoteViewController"]
+- ["So11UIResponderC", "Notebook"]
+- !private ["So11UIResponderC", "NotesManager"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "UITableViewCellEditingStyle"]
+- ["So11UIResponderC", "configureView"]
+- !private ["So11UIResponderC", "deleteRows"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "indexPathForSelectedRow"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadData"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "noteObject"]
+- ["So11UIResponderC", "notebookObject"]
+- ["So11UIResponderC", "notesArray"]
+- ["So11UIResponderC", "numberOfSections"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", "Note"]
+- !private ["So30UIResponderStandardEditActionsP", "NotesManager"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "configureView"]
+- !private ["So30UIResponderStandardEditActionsP", "deleteRows"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "indexPathForSelectedRow"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadData"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "noteObject"]
+- !private ["So30UIResponderStandardEditActionsP", "notebookObject"]
+- !private ["So30UIResponderStandardEditActionsP", "notesArray"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So12UIScrollViewC", "deleteRows"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "indexPathForSelectedRow"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- ["So20UIScrollViewDelegateP", "Note"]
+- !private ["So20UIScrollViewDelegateP", "NotesManager"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "configureView"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "loadData"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "notebookObject"]
+- !private ["So20UIScrollViewDelegateP", "notesArray"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "viewWillAppear"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "deleteRows"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "indexPathForSelectedRow"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- ["So16UIStateRestoringP", "Note"]
+- !private ["So16UIStateRestoringP", "NotesManager"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "configureView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadData"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "noteObject"]
+- !private ["So16UIStateRestoringP", "notebookObject"]
+- !private ["So16UIStateRestoringP", "notesArray"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So11UITableViewC", "deleteRows"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "indexPathForSelectedRow"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- !private ["SC27UITableViewCellEditingStyleO", "delete"]
+- ["So21UITableViewControllerC", "Bool"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "Note"]
+- !private ["So21UITableViewControllerC", "NoteViewController"]
+- ["So21UITableViewControllerC", "Notebook"]
+- !private ["So21UITableViewControllerC", "NotesManager"]
+- ["So21UITableViewControllerC", "UIStoryboardSegue"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", "UITableViewCellEditingStyle"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "configureView"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "loadData"]
+- !private ["So21UITableViewControllerC", "navigationItem"]
+- ["So21UITableViewControllerC", "notebookObject"]
+- ["So21UITableViewControllerC", "notesArray"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "prepare"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", "viewWillAppear"]
+- ["So21UITableViewDataSourceP", "Note"]
+- !private ["So21UITableViewDataSourceP", "NotesManager"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "configureView"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "loadData"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "notebookObject"]
+- !private ["So21UITableViewDataSourceP", "notesArray"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- !private ["So21UITableViewDataSourceP", "viewWillAppear"]
+- ["So19UITableViewDelegateP", "Note"]
+- !private ["So19UITableViewDelegateP", "NotesManager"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "configureView"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "loadData"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "notebookObject"]
+- !private ["So19UITableViewDelegateP", "notesArray"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So19UITableViewDelegateP", "viewWillAppear"]
+- !private ["SC23UITableViewRowAnimationO", "fade"]
+- ["So18UITraitEnvironmentP", "Note"]
+- !private ["So18UITraitEnvironmentP", "NotesManager"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "configureView"]
+- !private ["So18UITraitEnvironmentP", "deleteRows"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "indexPathForSelectedRow"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadData"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "noteObject"]
+- !private ["So18UITraitEnvironmentP", "notebookObject"]
+- !private ["So18UITraitEnvironmentP", "notesArray"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So6UIViewC", "deleteRows"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "indexPathForSelectedRow"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textLabel"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "Note"]
+- !private ["So16UIViewControllerC", "NoteViewController"]
+- ["So16UIViewControllerC", "Notebook"]
+- !private ["So16UIViewControllerC", "NotesManager"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "UITableViewCellEditingStyle"]
+- ["So16UIViewControllerC", "configureView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadData"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "noteObject"]
+- ["So16UIViewControllerC", "notebookObject"]
+- ["So16UIViewControllerC", "notesArray"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "deleteRows"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPathForSelectedRow"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Note"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotesManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "content"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteNote"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getNotes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForSelectedRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "largeTitleDisplayMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noteObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notebookObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notesArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "So16UINavigationItemC21LargeTitleDisplayModeO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "17NoteBookApp_Realm0A0C"
+- "17NoteBookApp_Realm0A19TableViewControllerC"
+- !private "17NoteBookApp_Realm0A14ViewControllerC"
+- !private "17NoteBookApp_Realm8NotebookC"
+- !private "17NoteBookApp_Realm12NotesManagerC"
+- !private "10RealmSwift6ObjectC"
+- !private "So13RLMObjectBaseC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- !private "SC27UITableViewCellEditingStyleO"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- !private "SC23UITableViewRowAnimationO"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5ab71b77cb7824feafceb645648927b5"

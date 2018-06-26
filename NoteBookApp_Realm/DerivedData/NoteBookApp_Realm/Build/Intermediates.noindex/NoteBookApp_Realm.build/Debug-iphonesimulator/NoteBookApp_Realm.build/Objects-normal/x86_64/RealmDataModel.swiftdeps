@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Note"
+- "Notebook"
+provides-nominal:
+- "17NoteBookApp_Realm0A0C"
+- "17NoteBookApp_Realm8NotebookC"
+provides-member:
+- ["17NoteBookApp_Realm0A0C", ""]
+- ["17NoteBookApp_Realm8NotebookC", ""]
+provides-dynamic-lookup:
+- "content"
+- "creationDate"
+- "title"
+depends-top-level:
+- "Date"
+- "List"
+- "Note"
+- "Notebook"
+- "Object"
+- "StringLiteralType"
+depends-member:
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "Date"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "List"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", "List"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", "List"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "List"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["10Foundation4DateV", "init"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "Date"]
+- ["s9EquatableP", "List"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Date"]
+- ["s8HashableP", "List"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "init"]
+- ["s22LazyCollectionProtocolP", "init"]
+- ["s20LazySequenceProtocolP", "init"]
+- ["10RealmSwift4ListC", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["10RealmSwift10MinMaxTypeP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- ["So17NSFastEnumerationP", "init"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "List"]
+- ["So8NSObjectC", "Note"]
+- ["So8NSObjectC", "content"]
+- ["So8NSObjectC", "creationDate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "notes"]
+- ["So8NSObjectC", "title"]
+- ["So16NSObjectProtocolP", "Date"]
+- ["So16NSObjectProtocolP", "List"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "init"]
+- ["17NoteBookApp_Realm0A0C", "Date"]
+- ["17NoteBookApp_Realm0A0C", "content"]
+- ["17NoteBookApp_Realm0A0C", "creationDate"]
+- ["17NoteBookApp_Realm0A0C", "deinit"]
+- ["17NoteBookApp_Realm0A0C", "init"]
+- ["17NoteBookApp_Realm8NotebookC", "Date"]
+- ["17NoteBookApp_Realm8NotebookC", "List"]
+- ["17NoteBookApp_Realm8NotebookC", "Note"]
+- ["17NoteBookApp_Realm8NotebookC", "creationDate"]
+- ["17NoteBookApp_Realm8NotebookC", "deinit"]
+- ["17NoteBookApp_Realm8NotebookC", "init"]
+- ["17NoteBookApp_Realm8NotebookC", "notes"]
+- ["17NoteBookApp_Realm8NotebookC", "title"]
+- ["10RealmSwift6ObjectC", "Date"]
+- ["10RealmSwift6ObjectC", "List"]
+- ["10RealmSwift6ObjectC", "Note"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "content"]
+- ["10RealmSwift6ObjectC", "creationDate"]
+- ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "notes"]
+- ["10RealmSwift6ObjectC", "title"]
+- ["So13RLMObjectBaseC", "Date"]
+- ["So13RLMObjectBaseC", "List"]
+- ["So13RLMObjectBaseC", "Note"]
+- ["So13RLMObjectBaseC", "content"]
+- ["So13RLMObjectBaseC", "creationDate"]
+- ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "notes"]
+- ["So13RLMObjectBaseC", "title"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["10RealmSwift0A10CollectionP", "init"]
+- ["10RealmSwift0A14CollectionBaseP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "Date"]
+- ["10RealmSwift0A15CollectionValueP", "List"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10RealmSwift14ThreadConfinedP", "Date"]
+- ["10RealmSwift14ThreadConfinedP", "List"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- ["10RealmSwift14ThreadConfinedP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "List"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s22LazyCollectionProtocolP"
+- "s20LazySequenceProtocolP"
+- "10RealmSwift4ListC"
+- "s25LosslessStringConvertibleP"
+- "10RealmSwift10MinMaxTypeP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "17NoteBookApp_Realm0A0C"
+- "17NoteBookApp_Realm8NotebookC"
+- "10RealmSwift6ObjectC"
+- "So13RLMObjectBaseC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "10RealmSwift0A10CollectionP"
+- "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/mac/Desktop/NoteBookApp_Realm/DerivedData/NoteBookApp_Realm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4584d5ae5a95e48b8e2e15dca7ceeeaa"
