@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "6d8b3c5ab578490c60b27789a93761c5"
+build_time: [1530700565, 216957000]
+inputs:
+  "/Users/mac/basicApps/PizzaNotification/PizzaNotification/ViewController.swift": [1530659519, 0]
+  "/Users/mac/basicApps/PizzaNotification/PizzaNotification/AppDelegate.swift": [1530655351, 0]
