@@ -55,14 +55,12 @@ class DiceViewController: UIViewController {
     // MARK: Generate Image for Dice
     
     func imageForValue(_ value: Int?) -> UIImage? {
-        // accepts a conditional Int, and returns an dice image, or nil
         return nil
     }
     
     // MARK: Actions
     
     @IBAction func dismiss() {
-        // dismiss this view controller
         self.dismiss(animated: true, completion: nil)
     }
 }
