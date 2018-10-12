@@ -22,10 +22,6 @@ class ViewController: UIViewController {
     }
         
     @IBAction func colorChanged() {
-        
-    if self.redControl == nil {
-        return
-    }
     let r: CGFloat = CGFloat (self.redControl.value)
     let g: CGFloat = CGFloat(self.greenControl.value)
     let b: CGFloat = CGFloat (self.blueControl.value)
