@@ -14,17 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Start Over", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ViewController.startOver))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
    
     @objc func startOver() {
         if let navigationController = self.navigationController {
             navigationController.popToRootViewController(animated: true)
         }
     }
-
 }
 

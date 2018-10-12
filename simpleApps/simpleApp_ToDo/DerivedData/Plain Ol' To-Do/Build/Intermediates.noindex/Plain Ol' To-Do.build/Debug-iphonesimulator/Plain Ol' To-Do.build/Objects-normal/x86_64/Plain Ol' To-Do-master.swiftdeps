@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "cd4b34ffb9399a94a2f55bc4e19d5337"
-build_time: [1539346659, 633114000]
-inputs:
-  "/Users/mac/basicApps/simpleApps/simpleApp_ToDo/Plain Ol' To-Do/ViewController.swift": [1539346659, 0]
-  "/Users/mac/basicApps/simpleApps/simpleApp_ToDo/Plain Ol' To-Do/AppDelegate.swift": [1539346659, 0]
