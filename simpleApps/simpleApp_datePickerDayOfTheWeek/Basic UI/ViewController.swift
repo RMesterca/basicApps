@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         label.text = "Choose a date"
     }
 
@@ -24,11 +23,5 @@ class ViewController: UIViewController {
         let dayOfWeek:String = formatter.string(from: date)
         label.text = "The day is a \(dayOfWeek)"
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
