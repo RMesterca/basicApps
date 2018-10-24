@@ -29,7 +29,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="t5w-ET-5fa"/>
+                    <navigationItem key="navigationItem" id="t5w-ET-5fa">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Ft5-Ha-11F">
+                            <connections>
+                                <action selector="updateDataWith_sender:" destination="eTw-1K-cHR" id="eyL-tO-lst"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Wp1-43-dsB" id="m7E-xN-Tal"/>
                     </connections>
