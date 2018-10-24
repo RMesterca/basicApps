@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:KnownSpys/Injection"
+      name = "Injection">
+      <FileRef
+         location = "group:SwinjectStoryboard+Extensions.swift">
+      </FileRef>
+      <FileRef
+         location = "group:DependencyRegistry.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:KnownSpys.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
